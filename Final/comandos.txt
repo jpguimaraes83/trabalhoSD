@@ -1,0 +1,17 @@
+Abra o terminal na pasta raiz do projeto e execute as linhas de comando na sequência abaixo:
+
+1- Comando para rodar o mosquitto na porta 1884
+mosquitto -v -p 1884
+
+2- Comando para rodar o midleware:
+python3 middleware.py
+
+3 - Comando para rodar a catracaMQTT (representando uma catraca de acesso):
+python3 catracaMQTT.py
+
+4 - Comando para rodar o clienteRPC (representando um software de gerenciamento de cadastro):
+python3 clientRPC.py
+
+5 - Comando para rodar um Painel que mostra a quantidade de pessoas no local:
+python3 contagemMQTT.py
+
